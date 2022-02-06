@@ -1,0 +1,10 @@
+	<div class="block-1">
+		<div class="carroussel">
+			<div class="carroussel-1">
+				<img src="svg/logo-card.svg">
+				<p>Poker ranked,<br>
+				   the new online ranked<br>
+				   poker.</p>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,174 @@
+body {
+	width: 100vw;
+	margin: 0;
+	background-color: #24213C;
+}
+
+
+
+.accueil {
+	display: flex;
+}
+
+.menu {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	font-size: 130%;
+	color: #DD85DA;
+	font-family: video;
+	gap: 60px;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.home-1 {
+	cursor: pointer;
+	color: white;
+}
+
+.community-1 {
+	cursor: pointer;
+	color: white;
+}
+
+.contact-1 {
+	cursor: pointer;
+	color: white;
+}
+
+.discord-1 {
+	color: white;
+}
+
+#btn-nav1 {
+	border: none;
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+	color: #67D55E;
+}
+
+#nav2 {
+	position: absolute !important;
+	height: 100vh;
+	width: 100%;
+	background-color: #24213C;
+	transform: translateY(-100%);
+	transition: ease-in-out 0.7s;
+}
+
+.block-1-1 {
+	display: flex;
+}
+
+.carroussel {
+	display: flex;
+	width: ;
+	height: ;
+	text-align: center;
+	margin-left: 10rem;
+	margin-top: 10rem;
+}
+
+.carroussel-1 {
+	font-family: Marvin;
+}
+
+.p-1-1 {
+	color: #DD85DA;
+}
+
+.p-1-2 {
+	color: white;
+}
+
+.p-1-3 {
+	color: #DD85DA;
+}
+
+.login {
+	display: flex;
+	width: 30rem;
+	height: 20rem;
+	background-color: green;
+	margin-left: 20rem;
+	margin-top: 15rem;
+}
+
+.btn-login {
+
+}
+
+.btn-signup {
+	
+}
+
+
+
+
+#nav2.active {
+	position: absolute;
+	transform: translateX(0);
+}
+
+#btn-nav1.active {
+	top: 200px;
+}
+
+#menu2 {
+	display: flex;
+	justify-content: center;
+	font-size: 130%;
+	color: #DD85DA;
+	font-family: video;
+	gap: 60px;
+	margin-top: 2rem;
+}
+
+.play-menu {
+	display: inline-flex;
+	justify-content: center;
+	column-gap: 10rem;
+	width: 100%;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.home-2 {
+	cursor: pointer;
+	color: white;
+}
+
+.community-2 {
+	cursor: pointer;
+	color: white;
+}
+
+.discord-2 {
+	cursor: pointer;
+	color: white;
+}
+
+.game1 {
+	width: 150px;
+	height: 400px;
+	color: white;
+	background-color: #5A5ABE;	
+	border-radius: 3px;
+}
+
+.game2 {
+	width: 150px;
+	height: 400px;
+	color: white;
+	background-color: #6D6DC4;	
+	border-radius: 3px;
+}
+
+.game3 {
+	width: 150px;
+	height: 400px;
+	color: white;
+	background-color: #5A5ABE;	
+	border-radius: 3px;
+}
